@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+header {
+  /* background: #f59a00; */
+  /* background-image: linear-gradient(45deg, #eb8d21 25%, #6cfacd 25%, #6cfacd 50%, #eb8d21 50%, #eb8d21 75%, #6cfacd 75%, #6cfacd 100%);
+  background-size: 56.57px 56.57px; */
+  background-image: linear-gradient(135deg, #59a34b 16.67%, #fbffad 16.67%, #fbffad 33.33%, #d1cb71 33.33%, #d1cb71 50%, #59a34b 50%, #59a34b 66.67%, #fbffad 66.67%, #fbffad 83.33%, #d1cb71 83.33%, #d1cb71 100%);
+  background-size: 84.85px 84.85px;
+  /* color: #fff; */
+  /* color: rgb(47, 61, 124); */
+  color: #4e454a;
+  text-align: center;
+  padding-top: 62px;
+  padding-bottom: 22px;
+}
+
+header h1,
+header p {
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.features img {
+  width: 100%;
+}
+
+.features > h1 {
+  text-align: center;
+  padding: 32px 0;
+  font-weight: normal;
+}
+
+.features .container {
+  margin: 0 32px;
+  text-align : center   
+  /* 全ての要素を中央揃え */
+}
+
+.features .info > p{
+  text-align: left;
+}
+
+.features p {
+  line-height: 1.8;
+}
+
+.features section {
+  padding-bottom: 64px;
+}
+
+.features .btn {
+  text-decoration: none;
+  background:#f59a00;
+  color: #fff;
+  display: block;
+  width: 100%;
+  /* width: 140px; */
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.contact {
+  background: #66cdaa;
+  color: #fff;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.contact h1 {
+  font-weight: normal;
+}
+
+footer {
+  padding: 5% 0;
+  /* background: #323135; */
+  background: #4e454a;
+  color: #98969c;
+  text-align: center;
+}
+
+/* 画面サイズ大きい時 */
+
+@media (min-width: 900px) {
+  header .container {
+    /* display: flex;
+    width: 800px; */
+    margin: 0 auto;
+  }
+
+  header .info {
+    /* width: 60%; */
+    align-self: center;
+  }
+
+  .features .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .features section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features > h1{
+    padding: 64px 0;
+  }
+
+  .features .myinfo h1,
+  .features .myinfo p
+  {
+    text-align: left;
+  }
+
+  .features section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .features .info {
+    width: calc(50% - 32px);
+  }
+
+
+  .features .pic {
+    width: 40%;
+    padding-top: 30px;
+  }
+
+  .features .pic2 {
+    padding-top: 10%;
+  }
+
+  .features .mypic{
+    padding-top: 10%;
+  }
+
+}

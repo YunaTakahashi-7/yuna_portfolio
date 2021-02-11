@@ -1,0 +1,21 @@
+body{
+  padding-top: 40px;  /*上に余白 */
+  font-family: 'Courier New', monospace;
+  text-align: center; /*中央揃え */
+  background-color:#ffe4b5;
+}
+
+#target{
+  font-size: 48px;
+  letter-spacing: .1em; /*文字の間隔開いた*/
+  user-select: none;
+}
+
+#result{
+  font-size: 22px;
+  letter-spacing: .1em;
+  user-select: none;
+}
+#result.perfect{
+  color: red;
+}
